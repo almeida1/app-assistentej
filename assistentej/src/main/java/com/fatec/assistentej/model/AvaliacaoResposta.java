@@ -3,7 +3,7 @@ package com.fatec.assistentej.model;
 public class AvaliacaoResposta {
     public boolean responde;
     public int nota;
-    public boolean correto;
+    public boolean fidelidade;
     public String comentario;
 
     @Override
@@ -11,7 +11,7 @@ public class AvaliacaoResposta {
         return "AvaliacaoResposta{" +
                 "responde=" + responde +
                 ", nota=" + nota +
-                ", correto=" + correto +
+                ", fidelidade=" + fidelidade +
                 ", comentario='" + comentario + '\'' +
                 '}';
     }
